@@ -1,0 +1,198 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/video.js"></script>
+    <script src="js/script.js"></script>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src='https://vjs.zencdn.net/6.4.0/video.js'></script>
+    <link href="https://vjs.zencdn.net/7.5.4/video-js.css" rel="stylesheet">
+
+
+    <script>
+        $(function () {
+            $("#accordion").accordion({
+                collapsible: true
+            });
+        });
+    </script>
+</head>
+
+<body>
+
+    <header class="header1">
+        <img src="/img/logo.png">
+        <nav>
+            <ul>
+                <li><a href="#">OVER ONS</a></li>
+                <li><a href="#">LESMATERIAAL</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="tinted-imageblue">
+            <div id="imagetext">
+                <h2>Van beginner naar expert <br> Het lesmateriaal brengt je verder
+                </h2>
+                <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Etiam porta sem
+                    malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec id elit
+                    non mi porta gravida at eget metus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor
+                    auctor.</p>
+            </div>
+        </div>
+
+        <div id="playlist">
+            <h3>Playlist</h3>
+
+            <div id="accordion">
+                <h3>Algemene introductie</h3>
+                <div class="accordionparagraph">
+                    <video id="my-video" width="auto" height="auto"  controls >
+                        <source src="/video/SampleVideo_1280x720_1mb.mp4" type="video/mp4">
+                    </video>
+                    <button id="afspelen">speel af</button>
+                    <button id="pauzeren">pauzeren</button>
+                    <button id="toggle">play/pause</button>
+                </div>
+                <h3>Workshop 1: Kleuren met code</h3>
+                <div class="accordionparagraph">
+                    <p>
+                        Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+                        purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+                        velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+                        suscipit faucibus urna.
+                    </p>
+                </div>
+                <h3>Workshop 2: Vormen maken</h3>
+                <div class="accordionparagraph">
+                    <p>
+                        Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+                        Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+                        ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+                        lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+                    </p>
+                </div>
+                <h3>Workshop 3: Beweging</h3>
+                <div class="accordionparagraph">
+                    <p>
+                        Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+                        et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+                        faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+                        mauris vel est.
+                    </p>
+                    <p>
+                        Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+                        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                        inceptos himenaeos.
+                    </p>
+                </div>
+                <h3>Workshop 4: Variabelen gebruiken</h3>
+                <div class="accordionparagraph">
+                    <p>
+                        Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+                        et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+                        faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+                        mauris vel est.
+                    </p>
+                    <p>
+                        Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+                        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                        inceptos himenaeos.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="support">
+            <h3>Support</h3>
+            <h2>Kom je er niet uit? Wij helpen je graag verder</h2>
+        </div>
+        <div id="crew">
+            <div class="member klaartje1">
+                <div class="inner">
+                    <p> <strong>Klaartje Klaassen</strong> Hoofd Contactpersoon</p>
+                    <div class="email">
+                        <a href="#">EMAIL</a>
+                    </div>
+                </div>
+            </div>
+            <div class="member klaartje2">
+                <div class="inner">
+                    <p> <strong>Klaartje Klaassen</strong> Hoofd Contactpersoon</p>
+                    <div class="email">
+                        <a href="#">EMAIL</a>
+                    </div>
+                </div>
+            </div>
+            <div class="member klaartje3">
+                <div class="inner">
+                    <p> <strong>Klaartje Klaassen</strong> Hoofd Contactpersoon</p>
+                    <div class="email">
+                        <a href="#">EMAIL</a>
+                    </div>
+                </div>
+            </div>
+            <div class="member klaartje4">
+                <div class="inner">
+                    <p> <strong>Klaartje Klaassen</strong> Hoofd Contactpersoon</p>
+                    <div class="email">
+                        <a href="#">EMAIL</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tinted-imagepink">
+            <div id="imagetext2">
+                <h2>Klaar voor de <br> volgende uitdaging?
+                </h2>
+                <p>In ons expertprogramma vind je lessen voor gevorderden </p>
+            </div>
+            <div class="bluebutton">
+                <a href="#">KOM MAAR OP</a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="theme-switch-wrapper">
+            <em>SWITCH THEME</em>
+            <label class="theme-switch" for="checkbox">
+                <input type="checkbox" id="checkbox" />
+                <div class="slider round"></div>
+            </label>
+        </div>
+    </footer>
+
+    <script>
+        $(document).ready(function () {
+            /*
+            De brackets { } geven aan dat er een array van parameters in de functie
+            kan worden geplaatst. Combineer parameters door ze met een comma , te scheiden 
+            */
+            $("#accordion").accordion({ animate: 400, heightStyle: "content" });
+        });
+        var player = videojs('my-video', {
+            autoplay: 'muted',
+            loop: 'true',
+        });
+        $("button#afspelen").click(function(){
+            player.play();
+        });
+        $("button#pauzeren").click(function(){
+            player.pause();
+        });
+        let geklikt = false;
+        $("button#toggle").click(function(){
+            if(!geklikt){
+                player.pause();
+                geklikt = true;
+            } else{
+                player.play();
+                geklikt = false;
+            }
+        });
+    </script>
+</body>
